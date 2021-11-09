@@ -85,7 +85,7 @@ In the `extensions` section of the `config/admin.php` file, add some configurati
     					    'mergeTableCells'
     				    ]
     			    ],
-    			    'language'=>'zh-cn',
+    			    'language'=>'ja',
     		    
     		    ]
     	    ]
@@ -94,7 +94,8 @@ In the `extensions` section of the `config/admin.php` file, add some configurati
 
 ## Usage
 
-```php
-Form::extend('editor', \kitamula\CKEditor\Editor::class);
-```
+Add the following code to `app/Admin/bootstrap.php`
 
+```php
+Encore\Admin\Form::extend('editor', \kitamula\CKEditor\Editor::class);
+```
