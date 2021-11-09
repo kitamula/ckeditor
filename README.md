@@ -1,15 +1,15 @@
-CKEditor 5 集成laravel-admin
+CKEditor 5 for laravel-admin
 ======
 
 ## Installation
 
 ```bash
-composer require ghost/ckeditor
+composer require kitamula/ckeditor
 ```
 
 Then
 ```bash
-php artisan vendor:publish --tag=ghost-ckeditor
+php artisan vendor:publish --tag=kitamula-ckeditor
 ```
 
 ## Configuration
@@ -95,6 +95,6 @@ In the `extensions` section of the `config/admin.php` file, add some configurati
 ## Usage
 
 ```php
-Form::extend('editor', \ghost\CKEditor\Editor::class);
+Form::extend('editor', \kitamula\CKEditor\Editor::class);
 ```
 

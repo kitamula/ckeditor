@@ -1,16 +1,16 @@
 <?php
 
-namespace ghost\CKEditor;
+namespace kitamula\CKEditor;
 
 use Encore\Admin\Form\Field\Textarea;
 
 class Editor extends Textarea
 {
-    protected $view = 'ghost-ckeditor::editor';
+    protected $view = 'kitamula-ckeditor::editor';
 
     protected static $js = [
-	    'vendor/ghost/ckeditor/ckeditor.js',
-//	    'vendor/ghost/ckeditor/translations/zh-cn.js',
+	    'vendor/kitamula/ckeditor/ckeditor.js',
+//	    'vendor/kitamula/ckeditor/translations/zh-cn.js',
     ];
 
     public function render()

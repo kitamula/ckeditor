@@ -1,6 +1,6 @@
 <?php
 
-namespace ghost\CKEditor;
+namespace kitamula\CKEditor;
 
 use Encore\Admin\Extension;
 

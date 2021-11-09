@@ -1,14 +1,14 @@
 {
-    "name": "ghost/ckeditor",
-    "description": "CKEditor 5 集成laravel-admin",
+    "name": "kitamula/ckeditor",
+    "description": "CKEditor 5 for laravel-admin",
     "type": "library",
-    "keywords": ["laravel-admin", "extension", "editor", "CKEditor","CKEditor5"],
-    "homepage": "https://github.com/Ghost-die/ckeditor.git",
+    "keywords": ["laravel-admin", "extension", "editor", "CKEditor", "CKEditor5"],
+    "homepage": "https://github.com/kitamula/ckeditor.git",
     "license": "MIT",
     "authors": [
         {
-            "name": "ghost",
-            "email": "ghost@ghost-ai.com"
+            "name": "kitamula",
+            "email": "s.kitamura.biz@gmail.com"
         }
     ],
     "require": {
@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "ghost\\CKEditor\\": "src"
+            "kitamula\\CKEditor\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ghost\\CKEditor\\CKEditorServiceProvider"
+                "kitamula\\CKEditor\\CKEditorServiceProvider"
             ]
 
         }
